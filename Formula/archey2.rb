@@ -1,9 +1,9 @@
 class Archey2 < Formula
   desc "Updated archey graphical system information display for macOS"
-  homepage "https://obihann.github.io/archey-osx/"
+  homepage "https://jakepez.github.io/archey2-osx/"
   license "GPL-2.0-or-later"
   revision 1
-  head "https://github.com/obihann/archey-osx.git", branch: "master"
+  head "https://github.com/jakepez/archey2-osx.git", branch: "main"
 
   stable do
     url "https://github.com/jakepez/archey2-osx/archive/refs/heads/develop.tar.gz"
