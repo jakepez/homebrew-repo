@@ -8,6 +8,7 @@ class Archey2 < Formula
   stable do
     url "https://github.com/jakepez/archey2-osx/archive/refs/heads/develop.tar.gz"
     sha256 "fa80dfe9fa45c9c42d1b723454d6f07044e5649f67e000e437a3ab440ee1600a"
+  end
 
   depends_on :macos
 
