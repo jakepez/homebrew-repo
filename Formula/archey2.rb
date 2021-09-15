@@ -10,6 +10,12 @@ class Archey2 < Formula
     sha256 "fa80dfe9fa45c9c42d1b723454d6f07044e5649f67e000e437a3ab440ee1600a"
   end
 
+  # Optionally, specify a repository to be used. Brew then generates a
+  # `--HEAD` option. Remember to also test it.
+  # The download strategies (:using =>) are the same as for `url`.
+  # "master" is the default branch and doesn't need stating with a :branch conditional
+  head "https://github.com/jakepez/archey2-osx.git", :branch => "develop"
+
   depends_on :macos
 
   conflicts_with "archey4", because: "both install `archey` binaries"
