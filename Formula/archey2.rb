@@ -7,7 +7,7 @@ class Archey2 < Formula
 
   stable do
     url "https://github.com/jakepez/archey2-osx/archive/refs/tags/v1.0.1.tar.gz"
-    sha256 "64cf51a04e89e941ce1e19433e5cc5e8e6db72dfee3d4bc082413c004084632b"
+    sha256 "614d986e9994ac24f1ab23ac2b827ed701bce18287e923e64a3cbbb9125e1724"
   end
 
   # Optionally, specify a repository to be used. Brew then generates a
