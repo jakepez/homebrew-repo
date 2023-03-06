@@ -2,12 +2,12 @@ class Archey2 < Formula
   desc "Updated archey graphical system information display for macOS"
   homepage "https://jakepez.github.io/archey2-osx/"
   license "GPL-2.0-or-later"
-  version "1.0.2"
+  version "1.0.3"
   head "https://github.com/jakepez/archey2-osx.git", branch: "main"
 
   stable do
-    url "https://github.com/jakepez/archey2-osx/archive/refs/tags/v1.0.2.tar.gz"
-    sha256 "05a936b76800d61b3f880c08147b0d1c67593a3f5e2247b62f59d496d7fcd9f3"
+    url "https://github.com/jakepez/archey2-osx/archive/refs/tags/v1.0.3.tar.gz"
+    sha256 "98d9d1afb7e44befef6705360cddfdf90218e758d9684ba10ef6e4cc4b55c46a"
   end
 
   # Optionally, specify a repository to be used. Brew then generates a
