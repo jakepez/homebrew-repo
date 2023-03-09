@@ -2,8 +2,8 @@ class Archey2 < Formula
   desc "Updated archey graphical system information display for macOS"
   homepage "https://jakepez.github.io/archey2-osx/"
   license "GPL-2.0-or-later"
-  url "https://github.com/jakepez/archey2-osx/archive/refs/tags/v1.0.4.tar.gz"
-  sha256 "dc04d007822dfbf9d60068f0a1c734e3a5e27fef2ebed7686192e26b2e55852c"
+  url "https://github.com/jakepez/archey2-osx/archive/refs/tags/v1.0.5.tar.gz"
+  sha256 "6d0126e7283a2767f1ceb529e044fb7623e6ef40cc8b20671b6664795e906307"
   head "https://github.com/jakepez/archey2-osx.git", branch: "main"
 
   #stable do
