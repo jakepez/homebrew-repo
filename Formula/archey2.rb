@@ -20,7 +20,6 @@ class Archey2 < Formula
   depends_on :macos
 
   conflicts_with "archey4", because: "both install `archey` binaries"
-  conflicts_with "archey", because: "both install `archey` binaries"
 
   def install
     bin.install "bin/archey"
